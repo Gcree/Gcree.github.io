@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" type="text/css" href="Style.css">
+  <title>多元面向的發展</title>
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    .wrap {
+      display: flex;
+      width: 1200px;
+      margin: 100px auto;
+      padding-top: 75px;
+    }
+
+    .item {
+      width: 370px;
+      margin: 0 15px;
+      text-align: center;
+      border: 10px solid #9599A6;
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 10px 20px 50px #9599A6;
+    }
+
+    .item h3 {
+      color: #9599A6;
+    }
+
+    .item p {
+      color: black;
+    }
+
+    .item .icon {
+      width: 150px;
+      height: 150px;
+      background-color: #fff;
+      margin: -75px auto 0;
+      font-size: 85px;
+      line-height: 150px;
+      border-radius: 50%;
+      color: #9599A6;
+      position: relative;
+    }
+
+    .item .icon::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-top: 10px solid #9599A6;
+      border-right: 10px solid #9599A6;
+      border-left: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      left: 0px;
+      top: 0px;
+      border-radius: 50%;
+      transform: rotate(-45deg);
+    }
+
+    .item:hover .fa-solid {
+      animation: ss .2s linear infinite alternate;
+    }
+
+    .item .txt {
+      padding: 20px 20px 2em;
+    }
+
+    @keyframes ss {
+      0% {
+        transform: rotate(-10deg);
+      }
+
+      100% {
+        transform: rotate(10deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="main-nav">
+      <a href="index.html"><i class="fa-solid fa-house"></i> 首頁</a>
+      <a href="grow.html"><i class="fa-solid fa-user-graduate"></i>成長經歷</a>
+      <a href="develop.html"><i class="fa-solid fa-magnifying-glass"></i>多元面向的發展</a>
+      <a href="looking.html"><i class="fa-solid fa-glasses"></i>自我探索的過程</a>
+      <a href="record.html"><i class="fa-solid fa-camera"></i>隨手紀錄</a>
+    </nav>
+  </header>
+  <div class="wrap">
+    <div class="item">
+      <div class="icon">
+        <i class="fa-solid fa-child"></i>
+      </div>
+      <div class="txt">
+        <h4>國小時期</h4>
+        <p>我覺得我算是有多種面向的人，從小到大都想嘗試任何事情，算是個充滿好奇心以及實踐力的人，像國小時期，總是會對各種社團有興趣。<br><p></p>
+            至今，令我印象深刻的有花式直排輪以及科學社，依稀記得前者是透過暑假時間前往學校上兩個小時的課，從一開始不會順暢的溜直排輪，到後面可以做出一些花式動作，這對當時的我來說，肯定是充滿成就感的一件事情;後者則是佔據了我三、四年級的時光，當初只是覺得名字很酷，且課程簡介吸引我就去了，不去還好，一去就不得了，直接愛上這個社團。<br>
+           <p></p> 在這個社團的四個學期時間，學到了許多有趣的物理及化學知識。還記得做過慣性、作用力與反作用力、結晶的實驗，其餘的已忘記得差不多，但那段時光是放學後最快樂的社團時間。
+        </p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="icon">
+        <i class="fa-solid fa-child-reaching"></i>
+      </div>
+      <div class="txt">
+        <h4>國中時期</h4>
+        <p>上了國中之後，則是對餐飲有點興趣，當時學校也有開過烹飪社，每個禮拜都可以做不同的菜。<br><p></p>
+          三色蛋、太陽蛋、蛋餃、餅乾、點心類的都有做過，社團時間一結束朋友們都會直接衝過來問我做了什麼?有沒有什麼可以吃。但當時的我也是個小胖子，所以基本上都自己先吃光了。 <br>  <p></p>      
+        升國二之後開始對繪畫產生興趣，於是加入了美術社，但我對於美術社的印象不是很深刻，也許是因為我在那邊也沒有學到什麼東西的因素吧，所以日後的繪畫技術也沒有很純熟。
+      </div>
+    </div>
+    <div class="item">
+      <div class="icon">
+        <i class="fa-solid fa-lightbulb"></i>
+      </div>
+      <div class="txt">
+        <h4>高中時期</h4>
+        <p>轉眼間上了高中，由餘年少的好奇心也差不多耗損殆盡，所以想找個低調的社團加入，於是就加入了游泳社，但是游泳社比想像中的還累人。<br><p></p>
+          每個禮拜的社課基本上就是瘋狂地被教練要求游泳，而且還是持續的遊街近一個半小時，對於當時還是胖子的我真的很折騰。高二想說不能像高一一樣廢了，於是選擇加入戲劇社，為自己克服一下在人群面前的會怯場的毛病。<br><p></p> 
+          但這毛病也只有改善一點，實際練習沒有多少次，大多都是理論以及該如何呈現的小練習。雖然也有考驗臨時反應的練習，但那個幫助可說是微乎其微。<br>
+        也因為這種多面向，讓我當初在選填志願的時候可是費了一番心力，從各大群之中勉強挑出三個最有興趣的群，分別是社會心理、外文、大眾傳播，也因為當初要做備審，也是查閱各種資料，並經過自己的消化後呈現在上面。
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <p>&copy; Kuti</p>
+  </footer>
+</body>
+
+</html>
