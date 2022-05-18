@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
@@ -20,15 +19,27 @@
 </head>
 
 <body>
-    <header>
-        <nav class="main-nav">
-            <a href="index.html"><i class="fa-solid fa-house"></i> 首頁</a>
-            <a href="grow.html"><i class="fa-solid fa-user-graduate"></i>成長經歷</a>
-            <a href="develop.html"><i class="fa-solid fa-magnifying-glass"></i>多元面向的發展</a>
-            <a href="looking.html"><i class="fa-solid fa-glasses"></i>自我探索的過程</a>
-            <a href="record.html"><i class="fa-solid fa-camera"></i>隨手紀錄</a>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="https://www.youtube.com/channel/UC6l2JHSZa5M2eUaAaSGfVEw">庫提YT</a>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-white" aria-current="page" href="index.html"><i
+                            class="fa-solid fa-house"></i>主頁</a>
+                    <a class="nav-link text-white" href="grow.html"><i class="fa-solid fa-user-graduate"></i>成長經歷</a>
+                    <a class="nav-link text-white" href="develop.html"><i
+                            class="fa-solid fa-magnifying-glass"></i>多元面向的發展</a>
+                    <a class="nav-link text-white" href="looking.html"><i class="fa-solid fa-glasses"></i>自我探索的過程</a>
+                    <a class="nav-link text-white" href="record.html"><i class="fa-solid fa-camera"></i>隨手紀錄</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <div class="container">
         <main class="p-4 p-md-5 mb-4">
             <div class="col-md-6 px-0">
